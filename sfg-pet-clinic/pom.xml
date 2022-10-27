@@ -15,7 +15,7 @@
 	</parent>
 	<groupId>guru.springframework</groupId>
 	<artifactId>sfg-pet-clinic</artifactId>
-	<version>1</version>
+	<version>1-SNAPSHOT</version>
 	<name>sfg-pet-clinic</name>
 	<description>sfg-pet-clinic</description>
 	<properties>
@@ -38,5 +38,9 @@
 			</plugin>
 		</plugins>
 	</build>
+
+	<scm>
+		<developerConnection>scm:git:git@github.com:xliogre/sfg-pet-clinic.git</developerConnection>
+	</scm>
 
 </project>
